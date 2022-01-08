@@ -43,7 +43,7 @@ export default function (kibana) {
         'plugins/kibana/dashboard/saved_dashboard/saved_dashboard_register',
       ],
       app: {
-        id: 'kibana',
+        id: 'EPS',
         title: 'Kibana',
         listed: false,
         description: 'the kibana you know and love',
