@@ -23,7 +23,7 @@ import { injectVars } from './inject_vars';
 const mkdirp = Promise.promisify(mkdirpNode);
 
 export default function (kibana) {
-  const kbnBaseUrl = '/app/kibana';
+  const kbnBaseUrl = '/app/EPS';
   return new kibana.Plugin({
     id: 'kibana',
     config: function (Joi) {
